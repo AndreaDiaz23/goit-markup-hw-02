@@ -1,0 +1,94 @@
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #2196F3;
+    text-decoration: none;    
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14x;
+    font-weight: 500;
+    text-decoration: none;
+    color: #212121;
+}
+
+.menu:hover {
+    color: #2196F3;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+.contenedor {
+    display: flex; 
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+}
+
+.title {
+    font-size: 44px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.buttonsoluciones {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.titleh3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.parrafovalores {
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.titleh2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #212121;
+    text-align: center;
+}
+
+.titleh3-profes {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+}
+
+.parrafoprofes {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.contenedor-pie {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+}
+
+.textos-footer {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
