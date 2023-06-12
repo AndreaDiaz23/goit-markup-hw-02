@@ -6,53 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>La tarea de casa #2</title>
+    <title>La tarea de casa #3</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="/header" class="logo">WebStudio</a>
-        </nav>
-        <nav>
-            <ul>
+        <nav class="box-nav">
+            <ul class="box-nav-hijo1">
+                <li><a href="/header" class="logo">WebStudio</a></li>
                 <li class="menu"> <a href="./index.html"> Estudio</a></li>
                 <li class="menu"> <a href="./portafolio.html"> Portafolio</a></li>
                 <li class="menu"> <a href="/Contactos">Contactos</a></li>
             </ul>
-        </nav>
-        <ul>
-            <li>
-                <a href="mailto:info@devstudio.com"> info@devstudio.com </a>
-            </li>
-            <li>
-                <a href="tel:+525555296000"> +52 55 5529 6000 </a>
-            </li>
-        </ul>
-    </header>
-    <main>
-        <section>
-            <ul>
+            <ul class="box-nav-hijo2">
                 <li>
-                    <button type="button">Todo</button>
+                    <a class="menu" href="mailto:info@devstudio.com"> info@devstudio.com </a>
                 </li>
                 <li>
-                    <button type="button">Sitios-web</button>
-                </li>
-                <li>
-                    <button type="button">Aplicaciones</button>
-                </li>
-                <li>
-                    <button type="button">Diseño</button>
-                </li>
-                <li>
-                    <button type="button">Marketing</button>
+                    <a class="menu" href="tel:+525555296000"> +52 55 5529 6000 </a>
                 </li>
             </ul>
-        </section>
+        </nav>
+    </header>
+    <main class="servicios-completos">
+        <section >
+            <div class="button-portafolio">
+                <button type="button">Todo</button>
+                <button type="button">Sitios-web</button>
+                <button type="button">Aplicaciones</button>
+                <button type="button">Diseño</button>
+                <button type="button">Marketing</button>
+            </div>
 
-        <section>
-            <ul>
+            <ul class="imagenes-servicios">
                 <li>
                     <img src="./images/imagen 2_1.jpg" width="370" height="294" alt="computador" />
                     <h4>Tecnoduck</h4>
@@ -102,19 +88,21 @@
         </section>
     </main>
 
-    <footer>
-        <a href="/header" class="logo">Logo empresa</a>
+    <footer class="contenedor-pie">
+        <ul>
+            <li><a href="/header" class="logo">WebStudio</a></li>
+        </ul>
         <address>
             <ul>
                 <li>
-                    <a href="enlace google map" target="_blank" rel="noopener noreferrer">Calz. Ticomán 500, Ciudad de
+                    <a class="textos-footer" href="enlace google map" target="_blank" rel="noopener noreferrer">Calz. Ticomán 500, Ciudad de
                         México, CDMX, México>
                 </li>
                 <li>
-                    <a href="mailto:info@devstudio.com"> info@devstudio.com </a>
+                    <a class="textos-footer" href="mailto:info@devstudio.com"> info@devstudio.com </a>
                 </li>
                 <li>
-                    <a href="tel:+525555296000"> +52 55 5529 6000 </a>
+                    <a class="textos-footer" href="tel:+525555296000"> +52 55 5529 6000 </a>
                     </il>
             </ul>
         </address>
