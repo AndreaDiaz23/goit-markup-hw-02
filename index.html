@@ -12,30 +12,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-
-    <title>La tarea de casa #2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <title>La tarea de casa #3</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="/header" class="logo">WebStudio</a>
-        </nav>
-        <nav>
-            <ul>
+        <nav class="box-nav">
+            <ul class="box-nav-hijo1">
+                <li><a href="/header" class="logo">WebStudio</a></li>
                 <li class="menu"> <a href="./index.html"> Estudio</a></li>
                 <li class="menu"> <a href="./portafolio.html"> Portafolio</a></li>
                 <li class="menu"> <a href="/Contactos">Contactos</a></li>
             </ul>
+            <ul class="box-nav-hijo2">
+                <li>
+                    <a class="menu" href="mailto:info@devstudio.com"> info@devstudio.com </a>
+                </li>
+                <li>
+                    <a class="menu" href="tel:+525555296000"> +52 55 5529 6000 </a>
+                </li>
+            </ul>
         </nav>
-        <ul>
-            <li>
-                <a class="menu"     href="mailto:info@devstudio.com"> info@devstudio.com </a>
-            </li>
-            <li>
-                <a class="menu" href="tel:+525555296000"> +52 55 5529 6000 </a>
-            </li>
-        </ul>
     </header>
 
     <main>
@@ -45,29 +43,31 @@
         </section>
 
 
-        <section class="">
-
-            <h3 class="titleh3"> ATENCIÓN A LOS DETALLES</h3>
-            <p class="parrafovalores">Nos adentramos en todos los detalles y procesos de su negocio, para así
-                desarrollar una solución a su
-                medida.</p>
-
-            <h3 class="titleh3">PUNTUALIDAD</h3>
-            <p class="parrafovalores">Con nosotros, usted puede sentirse seguro y protegido. Un principio
-                importante de
-                la empresa: respetar su
-                tiempo y respetar los plazos acordados.</p>
-
-            <h3 class="titleh3">PLANIFICACIÓN</h3>
-            <p class="parrafovalores">Usted podrá observar y participar en cada fase del desarrollo y
-                aplicación de
-                soluciones.</p>
-
+        <section>
+            <ul class="box-valores">
+                <li>
+                    <h3 class="titleh3"> ATENCIÓN A LOS DETALLES</h3>
+                    <p class="parrafovalores">Nos adentramos en todos los detalles y procesos de su negocio, para así
+                        desarrollar una solución a su medida.</p>
+                </li>
+                <li>
+                    <h3 class="titleh3">PUNTUALIDAD</h3>
+                    <p class="parrafovalores">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo y respetar los plazos acordados.</p>
+                </li>
+                <li>
+                    <h3 class="titleh3">PLANIFICACIÓN</h3>
+                    <p class="parrafovalores">Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.</p>
+                </li>
+                <li>
+                    <h3 class="titleh3">TEGNOLOGÍA MODERNA</h3>
+                    <p class="parrafovalores">Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.</p>
+                </li>            
+            </ul>
         </section>
 
-        <section>
-            <h2 class="titleh2">A qué nos dedicamos</h2>
-            <ul>
+        <section class="box-dedicamos">
+            <h2 class="titleh2 box-dedicamos-hijo1">A qué nos dedicamos</h2>
+            <ul class="box-dedicamos-hijo2">
                 <li>
                     <img src="./images/imagen1.jpg" width="373" height="274" alt="Computador" />
                 </li>
@@ -80,9 +80,9 @@
             </ul>
         </section>
 
-        <section>
-            <h2 class="titleh2">Nuestro Equipo</h2>
-            <ul>
+        <section class="box-profes">
+            <h2 class="titleh2 box-profes-hijo1">Nuestro Equipo</h2>
+            <ul class="box-profes-hijo2">
                 <li>
                     <img src="./images/imagen4.jpg" width="270" height="260" alt="profe1" />
                     <h3 class="titleh3-profes">Andrés Cubo</h3>
@@ -109,7 +109,9 @@
 
 
     <footer class="contenedor-pie">
-        <a href="/header" class="logo">WebStudio</a>
+        <ul>
+            <li><a href="/header" class="logo">WebStudio</a></li>
+        </ul>
         <address>
             <ul>
                 <li>
