@@ -217,6 +217,25 @@ body {
     height: 368px;
 }
 
+.redessociales {
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.redessociales li {
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+
 /* PORTAFOLIO */
 
 .servicios-completos {
@@ -270,6 +289,3 @@ body {
     height: 404px;
 }
 
-.imagenes-servicios li h4 p {
-
-}
